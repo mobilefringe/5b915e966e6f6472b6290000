@@ -96,7 +96,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
         created: function ()  {
             this.loadData().then(response => {
                 this.$store.dispatch("setDataLoaded", true); 
-                this.property.default_logo_url = "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1529701995203/default_logo_600.png";               
+                this.property.default_logo_url = "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1536269861000/default-compressor.png";               
                 var i_banner = this.findRepoByName('Inside Page Banner');
                 if(i_banner !== null && i_banner !== undefined && i_banner.images.length > 0) {
                     this.inside_banner = i_banner.images[0];
