@@ -21,35 +21,6 @@
                             </p>
                             <a class="animated_btn" :href="siteInfo.googleMapsURL" target="_blank">Driving Direction</a>  
                         </div>
-                        
-                        <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AE7E0766CAB40A9AE9AE75D66E927646E44D8F39B3E25E85AF8CE751CC0F04931B6C6D174B7762441855475D30FF08312">	
-<p>
-    <label for="fieldvowt">First Name</label>
-    <br />
-    <input id="fieldvowt" name="cm-f-vowt" type="text" />
-</p>
-<p>
-    <label for="fieldvowi">Last Name</label>
-    <br />
-    <input id="fieldvowi" name="cm-f-vowi" type="text" />
-</p>
-<p>
-    <label for="fieldEmail">Email</label>
-    <br />
-    <input id="fieldEmail" name="cm-eddhuy-eddhuy" type="email" class="js-cm-email-input"
-    required />
-</p>
-<p>
-    <label for="fieldvowd">Postal Code</label>
-    <br />
-    <input id="fieldvowd" name="cm-f-vowd" type="text" />
-</p>
-<p>
-    <button class="js-cm-submit-button" type="submit">Subscribe</button>
-</p>
-</form>
-<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
-
                         <div class="details_col_9">
                             <p class="inside_page_link">Be the first to know about upcoming events and special announcements from {{ property.name }}!</p>
                             <form class="form-horizontal" action="//mobilefringe.createsend.com/t/d/s/eddhuy/" method="post" @submit.prevent="validateBeforeSubmit">
