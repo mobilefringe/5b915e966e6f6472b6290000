@@ -976,6 +976,9 @@ footer {
             left: 50%;
             transform: translate(-50%, -50%);
             width: 100%;
+            font-family: Georgia-Italic;
+            font-size: 1.375rem;
+            color: $primary;
             text-align: center;
         }
     }
