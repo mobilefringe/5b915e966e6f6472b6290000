@@ -156,7 +156,7 @@
                 currentStore: function() {
                     this.currentStore.zoom = 2;
                     
-                    if ( _.includes(this.currentStore.store_front_url_abs, 'missing')) {
+                    if (_.includes(this.currentStore.store_front_url_abs, 'missing')) {
                         this.currentStore.no_logo = true
                     } else {
                         this.currentStore.no_logo = false
