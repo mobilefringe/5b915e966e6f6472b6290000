@@ -13,7 +13,7 @@
                 <div class="main_container margin_30">
                     <div class="details_row">
                         <div class="details_col_3">
-                            <div v-if="currentStore.no_logo" class="no_store_logo">
+                            <div v-if="currentStore.no_logo" class="store_details_image center-block">
                                 
                             </div>
                             <img v-else class="store_details_image center-block" :src="currentStore.store_front_url_abs" :alt="currentStore.name + ' Logo'" />
