@@ -90,7 +90,7 @@
                             }
                         } else {
                             if  (_.includes(this.currentPromo.promo_image_url_abs, 'missing')) {
-                                this.currentPromo.image_url = "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531496516000/promo placeholder.png";    
+                                this.currentPromo.image_url = "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/jpeg/1536679318000/PHStock1.jpg";    
                             }
                         }
                     }
