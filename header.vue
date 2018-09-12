@@ -210,9 +210,12 @@
                 }
             },
             methods: {
-                changeLocale: function(val) {
-                    // this will update the data store, which in turn will trigger the watcher to update the locale in the system
-                    this.locale = val; 
+                loadData: async function() {
+                    try {
+                        let results = await Promise.all([this.$store.dispatch("getData", "stores"), this.$store.dispatch("getData", "events"),this.$store.dispatch("getData", "promotions"),this.$store.dispatch("getData", "jobs")]);
+                    } catch (e) {
+                        console.log("Error loading data: " + e.message);    
+                    }
                 },
                 getWindowWidth(event) {
                     this.windowWidth = window.innerWidth;
