@@ -147,6 +147,9 @@
                     window.addEventListener('resize', this.getWindowWidth);
                     this.getWindowWidth();
                 });
+                this.loadData().then(response => {
+                    this.headerReady = true;
+                });
             },
             mounted() {
                 this.$nextTick(function() {
@@ -215,10 +218,14 @@
                     this.windowWidth = window.innerWidth;
                 },
                 onOptionSelect(option) {
-                    this.$nextTick(function() {
-                        this.search = ""
+                    this.$router.push({
+                        name: "search-results",
+                        query: { searchQuery: this.search_result },
+                        params: { results: option }
                     });
-                    this.$router.push("/stores/" + option.slug);
+                    this.$nextTick(function() {
+                        this.search_result = "";
+                    });
                 }
             },
             beforeDestroy: function() {
