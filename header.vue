@@ -118,6 +118,10 @@
                     noScroll: false,
                     windowWidth: 0,
                     siteInfo: site,
+                    search_result: null,
+                    suggestionAttribute: "name",
+                    keys: ["name", "description", "tags", "store.name"],
+                    headerReady: false
                 }
             },
             props:['menu_items', 'social_media'],
