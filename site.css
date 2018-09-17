@@ -155,8 +155,7 @@ hr {
     align-items: flex-end; 
 }
 .site_logo {
-    width: 190px;
-    // margin-bottom: 10px;
+    max-width: 100%;
     img {
         max-width: 100%;
     }
