@@ -5,7 +5,7 @@
                 <div class="col-md-3">
                     <div class="site_logo">
                         <a href="/">
-                            <img :alt="siteInfo.siteName" src="//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1536263563000/stclogo@1x.png">
+                            <img :alt="siteInfo.siteName" src="//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1537198508000/SimcoeLogoWOFlag.png">
                         </a>
                     </div>
                     <div @click="showMenu = !showMenu" :class="{ open: showMenu }" id="menu-icon">
