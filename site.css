@@ -1302,7 +1302,7 @@ footer {
     .site_logo {
         margin: 0;
         padding: 20px 0;
-        width: 2810px;
+        width: 280px;
     }
     .header {
         min-height:70px;
@@ -1381,6 +1381,9 @@ footer {
 }
 
 @media(max-width: 425px){
+    .site_logo {
+        width: 210px;
+    }
     footer {
         .footer_menu {
             .col-md-4 {
