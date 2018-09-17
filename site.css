@@ -281,8 +281,8 @@ hr {
             margin-right: 0;
         }
         div {
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
             position: relative;
             border: 1px solid $primary;
             background: $primary; 
