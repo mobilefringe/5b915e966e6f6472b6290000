@@ -1301,8 +1301,8 @@ footer {
     }
     .site_logo {
         margin: 0;
-        padding-top: 10px;
-        width: 150px;
+        padding: 20px 0;
+        width: 2810px;
     }
     .header {
         min-height:70px;
