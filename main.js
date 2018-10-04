@@ -129,7 +129,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
         methods: {
             loadData: async function() {
                 try {
-                    await this.$store.dispatch('initializeApi', { site: "simcoetown", version: "v4" });
+                    await this.$store.dispatch('initializeApi', { site: "simcoe", version: "v4" });
                     await this.$store.dispatch("getData","property");
                     let results = await Promise.all([this.$store.dispatch("INITIALIZE_LOCALE"), this.$store.dispatch("getData", "hours"), this.$store.dispatch("getData", "stores"), this.$store.dispatch("getData", "repos")]);
                     await Promise.all([this.$store.dispatch("LOAD_META_DATA")]);
