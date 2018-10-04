@@ -2,7 +2,7 @@
     <header>
         <section id="header" class="header main_container">
             <div class="row logo_container">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="site_logo">
                         <a href="/">
                             <img :alt="siteInfo.siteName" src="//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1538668158000/Simcoe Town Centre - Logo-Flush.png">
@@ -15,7 +15,7 @@
                         <span></span>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div class="header_social_container hidden-sm hidden-xs">
                         <div id="search_component_wrapper" class="hidden_phone">
                             <div class="search_component_container">
