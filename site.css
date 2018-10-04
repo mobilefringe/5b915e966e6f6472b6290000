@@ -392,7 +392,7 @@ footer {
 .footer_menu {
     padding: 20px 0;
     .col-md-4 {
-        min-height: 228px;
+        min-height: 248px;
     }
     .footer_hours {
         .clock_icon {
