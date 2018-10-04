@@ -7,7 +7,13 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1525870162000/clock.png" class="clock_icon" alt="">
                     <div class="footer_hours_container">
                         <p>
-                            Monday to Friday: <br/>
+                            Monday to Wednesday: <br/>
+                            <span v-for="hour in weekdayHours">
+                                {{hour.open_time | moment("h:mm a", timezone)}} - {{hour.close_time | moment("h:mm a", timezone)}}    
+                            </span>
+                        </p>
+                        <p>
+                            Thursday & Friday: <br/>
                             <span v-for="hour in weekdayHours">
                                 {{hour.open_time | moment("h:mm a", timezone)}} - {{hour.close_time | moment("h:mm a", timezone)}}    
                             </span>
@@ -90,8 +96,11 @@
                     'getPropertyHolidayHours',
                     'findRepoByName'
                 ]),
-                weekdayHours() {
+                monday() {
                     return _.filter(this.getPropertyHours, function(o) { return o.day_of_week == 1 });
+                },
+                thursday() {
+                    return _.filter(this.getPropertyHours, function(o) { return o.day_of_week == 4 });
                 },
                 saturdayHours() {
                     return _.filter(this.getPropertyHours, function(o) { return o.day_of_week == 6 });
