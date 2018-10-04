@@ -8,13 +8,13 @@
                     <div class="footer_hours_container">
                         <p>
                             Monday to Wednesday: <br/>
-                            <span v-for="hour in weekdayHours">
+                            <span v-for="hour in mondayHours">
                                 {{hour.open_time | moment("h:mm a", timezone)}} - {{hour.close_time | moment("h:mm a", timezone)}}    
                             </span>
                         </p>
                         <p>
                             Thursday & Friday: <br/>
-                            <span v-for="hour in weekdayHours">
+                            <span v-for="hour in thursdayHours">
                                 {{hour.open_time | moment("h:mm a", timezone)}} - {{hour.close_time | moment("h:mm a", timezone)}}    
                             </span>
                         </p>
@@ -96,10 +96,10 @@
                     'getPropertyHolidayHours',
                     'findRepoByName'
                 ]),
-                monday() {
+                mondayHours() {
                     return _.filter(this.getPropertyHours, function(o) { return o.day_of_week == 1 });
                 },
-                thursday() {
+                thursdayHours() {
                     return _.filter(this.getPropertyHours, function(o) { return o.day_of_week == 4 });
                 },
                 saturdayHours() {
