@@ -402,6 +402,9 @@ footer {
         }    
         .footer_hours_container {
             display: inline-block;
+            p {
+                margin-bottom: 8px;
+            }
         }
     }
     .footer_newsletter {
