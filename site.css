@@ -57,6 +57,9 @@ hr {
    max-width: 100%;
    border-top: 2px solid #eee;
 }
+strong {
+    font-family: Avenir-Heavy; 
+}
 #app {
     min-height: 100vh;
     display: -webkit-box;
