@@ -816,7 +816,9 @@ footer {
     line-height: 1rem;
     color: #FFF !important;
 }
-
+.mapplic-tooltip-title {
+    margin: 10px 12px 10px 0 !important;
+}
 /* *** PAGES *** */
 .page_title {
     font-weight: 700;
