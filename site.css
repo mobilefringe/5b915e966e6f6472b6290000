@@ -459,10 +459,6 @@ footer {
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
-                img {
-                    max-width:100%;
-                    max-height:100%;
-                }
             }
         }
     }
