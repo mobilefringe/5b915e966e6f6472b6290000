@@ -447,12 +447,12 @@ footer {
         }  
         .insta-feed-image-container {
             margin: 2.5px;
-            height: 54px;
+            height: 64px;
             width: calc(33% - 5px);
             float: left;
             .insta-feed-image {
                 margin: 0;
-                height: 54px;
+                height: 64px;
                 width: 100%;
                 display: block;
                 display: inline-block;
