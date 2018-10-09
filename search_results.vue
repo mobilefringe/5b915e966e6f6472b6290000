@@ -34,7 +34,7 @@
                                     <img class="result_logo" src="//codecloud.cdn.speedyrails.net/sites/5b8953ca6e6f647e01650000/image/png/1535746524000/centennial_default-compressor.png"/>    
                                 </div>
                                 <div class="col-sm-9 search_result_content">
-                                    <h4>{{result.name}}</h4>
+                                    <h3>{{result.name}}</h3>
                                     <p>{{truncated(result.description)}}</p>
                                     <router-link v-if="result.store_front_url_abs" class="result_link hvr-icon-forward" :to="{ name: 'storeDetails', params:{ id:result.slug }}">
                                         <i class="fa fa-caret-right hvr-icon"></i> View Store Details
