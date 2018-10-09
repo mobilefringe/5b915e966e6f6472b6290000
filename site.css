@@ -227,9 +227,6 @@ strong {
     }
     .search_result_content {
         font-family: Avenir-Book;
-        h3 {
-            font-family: Georgia-Italic;
-        }
         p {
             margin-bottom: 10px;
         }
