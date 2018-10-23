@@ -108,7 +108,7 @@
             },
             created() {
                 this.loadData().then(response => {
-                    var temp_repo = this.findRepoByName('Map Banner').images;
+                    var temp_repo = this.findRepoByName('Leasing Banner').images;
                     if(temp_repo != null) {
                         this.pageBanner = temp_repo[0];
                     } else {
