@@ -11,7 +11,7 @@
                 <div class="main_container margin_30">
                     <div class="details_row">
                         <div class="details_col_3 hidden_phone">
-                            <img class="img_max" src="sideBanner.image_url" alt="" />    
+                            <img class="img_max" :src="sideBanner.image_url" alt="" />    
                         </div>
                         <div class="details_col_9" v-if="currentPromo">
                             <router-link to="/promotions">
