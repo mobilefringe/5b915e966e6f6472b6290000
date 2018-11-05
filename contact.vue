@@ -99,7 +99,7 @@
                             "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
                         }
                     }
-                    var temp_repo = this.findRepoByName('Contact Side Banner').images;
+                    temp_repo = this.findRepoByName('Contact Side Banner').images;
                     if(temp_repo != null) {
                         this.sideBanner = temp_repo[0];
                     } else {
