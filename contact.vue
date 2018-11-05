@@ -99,6 +99,15 @@
                             "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
                         }
                     }
+                    var temp_repo = this.findRepoByName('Contact Side Banner').images;
+                    if(temp_repo != null) {
+                        this.pageBanner = temp_repo[0];
+                    } else {
+                        this.pageBanner = {
+                            "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
+                        }
+                    }
+                    sideBanner
                     this.currentPage = response[0].data;
                     this.dataLoaded = true;
                 });
