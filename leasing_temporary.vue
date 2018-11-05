@@ -11,7 +11,7 @@
                 <div class="main_container mobile_padding margin_30">
                     <div class="details_row">
                         <div class="details_col_3 hidden_phone">
-                            <img class="img_max" src="//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/jpeg/1531500156000/sidebanner4.jpg" alt="" />    
+                            <img class="img_max" src="//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1541442838996/SideBanner01.png" alt="" />    
                         </div>
                         <div class="details_col_9">
         				    <h3 class="inside_page_header">Specialty Short Term Leasing</h3>
