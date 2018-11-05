@@ -11,7 +11,7 @@
                 <div class="main_container mobile_padding margin_30">
                     <div class="details_row">
                         <div class="details_col_3 hidden_phone">
-                            <img class="img_max" :src="sideBanner.image)url" alt="" />    
+                            <img class="img_max" :src="sideBanner.image_url" alt="" />    
                         </div>
                         <div class="details_col_9">
                             <!-- EVENTS -->
@@ -92,7 +92,7 @@
                             "image_url": "//codecloud.cdn.speedyrails.net/sites/5b915e966e6f6472b6290000/image/png/1531495616000/inside_banner.png"
                         }
                     }
-                    var temp_repo1 = this.findRepoByName('Contact Side Banner').images;
+                    var temp_repo1 = this.findRepoByName('Events Banner').images;
                     if(temp_repo1 != null) {
                         this.sideBanner = temp_repo1[0];
                     } else {
