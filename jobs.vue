@@ -90,7 +90,7 @@ define(["Vue", "vuex", "moment", "moment-timezone", "vue-moment", "bootstrap-vue
                         }
                     }
                     var temp_repo1 = this.findRepoByName('Jobs Side Banner');
-                    if(temp_repo1 != null) {
+                    if(temp_repo1  && temp_repo1.images) {
                         this.sideBanner = temp_repo1.images[0];
                     } else {
                         this.sideBanner = {
