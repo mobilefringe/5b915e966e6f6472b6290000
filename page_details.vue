@@ -66,7 +66,7 @@
                                 }
                             }  
                             var temp_repo1 = _this.findRepoByName('Pages Side Banner');
-                            if(temp_repo1 != null) {
+                            if(temp_repo1 && temp_repo1.images) {
                                 _this.sideBanner = temp_repo1.images[0];
                             } else {
                                 _this.sideBanner = {
