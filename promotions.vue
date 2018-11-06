@@ -94,7 +94,7 @@
                         }
                     }
                     var temp_repo1 = this.findRepoByName('Promotions Side Banner');
-                    if(temp_repo1 != null) {
+                    if(temp_repo1 && temp_repo1.images) {
                         this.sideBanner = temp_repo1.images[0];
                     } else {
                         this.sideBanner = {
