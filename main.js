@@ -98,12 +98,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                         name: "Facebook",
                         url: "https://www.facebook.com/Simcoe-Town-Centre-1437325053163821/",
                         iconClass: "fab fa-facebook-f"
-                    },
-                    // {
-                    //     name: "Twitter",
-                    //     url: "https://twitter.com/",
-                    //     iconClass: "fab fa-twitter"
-                    // }
+                    }
                 ],
                 inside_banner : null
             }
@@ -146,7 +141,12 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                 try {
                     await this.$store.dispatch('initializeApi', { site: "simcoe", version: "v4" });
                     await this.$store.dispatch("getData","property");
-                    let results = await Promise.all([this.$store.dispatch("INITIALIZE_LOCALE"), this.$store.dispatch("getData", "hours"), this.$store.dispatch("getData", "stores"), this.$store.dispatch("getData", "repos")]);
+                    let results = await Promise.all([
+                        this.$store.dispatch("INITIALIZE_LOCALE"), 
+                        this.$store.dispatch("getData", "hours"), 
+                        this.$store.dispatch("getData", "stores"), 
+                        this.$store.dispatch("getData", "repos")
+                    ]);
                     await Promise.all([this.$store.dispatch("LOAD_META_DATA")]);
                 } catch (e) {
                     console.log("Error loading data: " + e.message);    
