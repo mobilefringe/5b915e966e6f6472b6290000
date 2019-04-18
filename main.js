@@ -63,7 +63,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
     Vue.use(VueI18n);
     
     /* BugSnag */
-    const bugsnagClient = bugsnag('ac3ba3686853bf89c75b87854032361f')
+    const bugsnagClient = bugsnag('c8b0df024b70a8b963fa23d3742bb273')
     bugsnagClient.use(bugsnagVue, Vue)
     
     /* initialize router */
