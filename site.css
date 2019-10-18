@@ -364,12 +364,12 @@ strong {
 	font-family: Avenir-Book;
 	text-transform: uppercase;
 	&:hover {
-	    color: $primary;
+	    color: #FFF;
 	    text-decoration: underline;
 	}
 	a {
 	    &:hover {
-	        color: $primary;
+	        color: #FFF;
 	        text-decoration: underline;
 	    }
 	}
