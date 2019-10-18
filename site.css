@@ -363,7 +363,7 @@ strong {
     min-width: 108px;
 	font-family: Avenir-Book;
 	text-transform: uppercase;
-	&:hover {
+	a:hover {
 	    color: $primary;
 	    text-decoration: underline;
 	}
