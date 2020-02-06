@@ -106,7 +106,7 @@
                     }
 
                     var repo_data = this.findRepoByName("Leasing Images");
-                    if(repo_data != null && repo_data !== undefined && repo_data.images.length > 0){
+                    if (repo_data != null && repo_data !== undefined && repo_data.images.length > 0){
                         this.leasingImages = repo_data.images;
                     }
                                 
