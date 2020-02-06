@@ -92,6 +92,7 @@
                     }
                     
                     var leasing_docs = this.findRepoByName('Leasing Documents').images;
+                    console.log("leasing_docs", leasing_docs)
                     var _this = this;
                     if (leasing_docs != null) {
                         _.forEach(leasing_docs, function(value, key) {
