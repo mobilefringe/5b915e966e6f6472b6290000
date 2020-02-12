@@ -77,8 +77,8 @@
                     _.forEach(this.$store.state.banners, function (value, key) {
                         var today = new Date();
                         var start = new Date (value.start_date);
-                        if (start <= today){
-                            if (value.end_date){
+                        if (start <= today) {
+                            if (value.end_date) {
                                 var end = new Date (value.end_date);
                                 if (end >= today){
                                     banners.push(value);  
